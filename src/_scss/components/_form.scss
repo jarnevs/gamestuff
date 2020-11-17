@@ -1,0 +1,27 @@
+.form {
+  margin-top: 20px;
+
+  &__group {
+    margin-bottom: 20px;
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border: 1px solid $black;
+    border-radius: 5px;
+  }
+
+  textarea {
+    resize: none;
+    height: 100px;
+    font-family: $font-family;
+  }
+}
